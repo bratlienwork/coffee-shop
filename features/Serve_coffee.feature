@@ -1,7 +1,7 @@
 Feature: Serve coffee
   In order to earn money
   Customers should be able to 
-  buy coffee at all times!
+  buy coffee at all times!-2
 
   Scenario: Buy last coffee
     Given there are 1 coffees left in the machine
