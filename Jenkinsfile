@@ -9,7 +9,7 @@ pipeline {
     }
     stage('Install Bundler') {
       steps {
-        sh "gem install bundler --no-rdoc --no-ri"
+        sh "gem install bundler "
       }
     }
     stage('Build') {
